@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T20:30:14.102Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" etag="PU0iHNMzL5S4TMNLwO0w" version="24.4.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-05-24T20:35:26.025Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" etag="U1S_0QlJivSyndubYQzK" version="24.4.6" type="github" pages="5">
   <diagram name="Варианты использования" id="eJAZB0x1PvuYRLuYW8T5">
     <mxGraphModel dx="934" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,7 +122,71 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="DYK7F04DaD9--w07CJt6" name="Состояния заказа" />
+  <diagram id="DYK7F04DaD9--w07CJt6" name="Состояния заказа">
+    <mxGraphModel dx="1059" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Imz3ULtOpOqF18Fr4-KS-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Imz3ULtOpOqF18Fr4-KS-10" target="Imz3ULtOpOqF18Fr4-KS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Imz3ULtOpOqF18Fr4-KS-1" value="Оформлен" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Imz3ULtOpOqF18Fr4-KS-2" value="Оплачен" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Imz3ULtOpOqF18Fr4-KS-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bUZg_prtrB5t65uSS_ff-1" target="Imz3ULtOpOqF18Fr4-KS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bUZg_prtrB5t65uSS_ff-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Imz3ULtOpOqF18Fr4-KS-8" target="bUZg_prtrB5t65uSS_ff-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Imz3ULtOpOqF18Fr4-KS-8" value="Курьер доставляет заказ" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Imz3ULtOpOqF18Fr4-KS-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Imz3ULtOpOqF18Fr4-KS-1" target="Imz3ULtOpOqF18Fr4-KS-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="200" as="sourcePoint" />
+            <mxPoint x="370" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Imz3ULtOpOqF18Fr4-KS-10" value="Ожидает оплату" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Imz3ULtOpOqF18Fr4-KS-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Imz3ULtOpOqF18Fr4-KS-2" target="Imz3ULtOpOqF18Fr4-KS-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="200" as="sourcePoint" />
+            <mxPoint x="740" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Imz3ULtOpOqF18Fr4-KS-12" value="Готовится" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bUZg_prtrB5t65uSS_ff-2" value="Заказ доставлен" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bUZg_prtrB5t65uSS_ff-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bUZg_prtrB5t65uSS_ff-5" target="bUZg_prtrB5t65uSS_ff-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="200" as="sourcePoint" />
+            <mxPoint x="1280" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bUZg_prtrB5t65uSS_ff-1" value="Курьер забирает заказ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bUZg_prtrB5t65uSS_ff-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Imz3ULtOpOqF18Fr4-KS-12" target="bUZg_prtrB5t65uSS_ff-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="200" as="sourcePoint" />
+            <mxPoint x="900" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bUZg_prtrB5t65uSS_ff-5" value="Приготовлен/Ждёт курьера" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="y-9l3bkUmZfNXdofW7DS" name="Деятельность">
     <mxGraphModel dx="794" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
